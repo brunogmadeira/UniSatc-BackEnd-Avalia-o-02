@@ -12,9 +12,12 @@ Retorna o vencedor da batalha com base nos atributos de cada Pokémon.
 ```http://localhost:8080/api```
 
 Endpoints da API
-```/battle?pokemon1={nome}&pokemon2={nome}:```
+```/battle?pokemon1={nome}&pokemon2={nome}```
+
 Método: GET
+
 Descrição: Faz a batalha entre dois Pokémons e retorna o vencedor.
+
 ```Exemplo: http://localhost:8080/battle?pokemon1=pikachu&pokemon2=bulbasaur```
 
 <h2>Comandos docker:</h2>
