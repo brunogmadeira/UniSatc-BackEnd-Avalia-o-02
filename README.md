@@ -19,13 +19,16 @@ Método: GET
 ```http://localhost:8080/api/sobre```
 
 <h2>Batalha entre dois pokemons</h2>
-Neste endpoint é possivel colocar nome de dois pokemons por querry, ele ira buscar na base de dados da Api PokeApi, e retornará o vencedor
+
+Neste endpoint é possivel colocar nome de dois pokemons por querry, ele ira buscar na base de dados da Api PokeApi, e retornará o vencedor.
+
 Método: GET
 
 ```Exemplo: http://localhost:8080/api/battle?pokemon1=pikachu&pokemon2=bulbasaur```
 
 <h2>Batalha entre pokemon e boss</h2>
-Neste endpoint é possivel colocar nome de um pokemon, e enviar para o corpo da requisição um inimigo para enfrenta-lo, use sua criatividade
+
+Neste endpoint é possivel colocar nome de um pokemon, e enviar para o corpo da requisição um inimigo para enfrenta-lo, use sua criatividade.
 
 Método: POST
 
