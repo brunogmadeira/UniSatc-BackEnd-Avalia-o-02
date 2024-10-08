@@ -18,7 +18,7 @@ Método: GET
 
 Descrição: Faz a batalha entre dois Pokémons e retorna o vencedor.
 
-```Exemplo: http://localhost:8080/battle?pokemon1=pikachu&pokemon2=bulbasaur```
+```Exemplo: http://localhost:8080/api/battle?pokemon1=pikachu&pokemon2=bulbasaur```
 
 <h2>Comandos docker:</h2>
 
