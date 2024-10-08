@@ -8,7 +8,7 @@ Permite realizar batalhas entre dois Pokémons através da rota /battle.
 Integração com a API pública de Pokémons para obter informações de status (HP e Ataque) de cada Pokémon.
 Retorna o vencedor da batalha com base nos atributos de cada Pokémon.
 
-A aplicação estará acessível em:
+<h2>A aplicação estará acessível em:</h2>
 ```http://localhost:8080/api```
 
 Endpoints da API
@@ -17,7 +17,7 @@ Método: GET
 Descrição: Faz a batalha entre dois Pokémons e retorna o vencedor.
 ```Exemplo: http://localhost:8080/battle?pokemon1=pikachu&pokemon2=bulbasaur```
 
-Comandos docker:
+<h2>Comandos docker:</h2>
 
 ```docker build -t pokemon-battle-app```
 
