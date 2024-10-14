@@ -1,10 +1,11 @@
 <h1>Pokémon Battle API</h1>
 
 
-Uma API desenvolvida em Spring Boot que permite que dois Pokémons lutem entre si, utilizando dados de uma API externa para determinar o HP e o ataque de cada Pokémon.
+Uma API desenvolvida em Spring Boot para avaliação da matéria de back-end, que permite que dois Pokémons lutem entre si, utilizando dados de uma API externa para determinar o HP e o ataque de cada Pokémon.
 
 Funcionalidades
 Permite realizar batalhas entre dois Pokémons através da rota /battle.
+Realiza batalhas entre um pokemon buscado na API e um oponente que você pode escolher a partir de uma requisição, com rota /boss.
 Integração com a API pública de Pokémons para obter informações de status (HP e Ataque) de cada Pokémon.
 Retorna o vencedor da batalha com base nos atributos de cada Pokémon.
 
